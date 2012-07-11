@@ -8,7 +8,19 @@
 		beige color: #C1Af96 or rgba(193, 175,150,1)*/
 	/*CSS styles go here */
 	.custom { background: #06083d; background: -webkit-gradient(linear, right top, right bottom, from(rgba(6, 8, 61, 1)), to(rgba(0,0,0,1))); background: -moz-linear-gradient(top, #06083d, #000); background-attachment: fixed;
+	margin: 0;
+	padding: 0;
 }
+#container {
+	padding-top:  50px;
+}
+	.bg_image {
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+		height: 100%;		
+		display: block;
+	}
 	#logo h1{display: block; background: url(EnvisionLogoRedoFinal.png) no-repeat; width: 540px; height:180px; clear:both; text-indent: -9000%; border: 0px; text-align: center; margin: 0;}
 	.custom { font-family: 'Nobile', arial, serif; }
 	#page {width:540px; text-align: center; display: block; margin: 0 auto; background:#C1Af96; -moz-border-radius: 1em; -webkit-border-radius: 1em; border-radius: 1em; -moz-box-shadow:0px 8px 6px rgba(0, 0, 0, .5); -webkit-box-shadow:0px 8px 6px rgba(0, 0, 0, .5); box-shadow:0px 8px 6px  rgba(0, 0, 0, .5); background:  -webkit-gradient(linear, right top, right bottom, from(rgba(250,250,250,1)), to(rgba(193, 175,150,1))); background: -moz-linear-gradient(top, rgba(250,250,250,1), rgba(193, 175,150,1));} 
@@ -25,6 +37,7 @@
 </head>
 <!-- Start of the Content -->
 <body class="custom">
+<img class="bg_image" src ="images/bg_image1.jpg" width="100%" height="auto" />
 	<div id="container">
 		<div id="page">
 			<div id="header">
